@@ -1,0 +1,114 @@
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+lcd.init();
+lcd.backlight();
+}
+void one() {
+  lcd.
+}
+?,/,/
+
+void loop() {
+  lcd.setCursor(2,1);
+  lcd.print(one());
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("1");
+  lcd.setCursor(2,1); 
+  lcd.print("22");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("22");
+  lcd.setCursor(2,1); 
+  lcd.print("333");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("333");
+  lcd.setCursor(2,1); 
+  lcd.print("4444");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("4444");
+  lcd.setCursor(2,1); 
+  lcd.print("55555");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("55555");
+  lcd.setCursor(2,1); 
+  lcd.print("666666");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("666666");
+  lcd.setCursor(2,1);
+  lcd.print("7777777");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("7777777");
+  lcd.setCursor(2,1);
+  lcd.print("88888888");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("88888888");
+  lcd.setCursor(2,1);
+  lcd.print("999999999");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("999999999");
+  lcd.setCursor(2,1);
+  lcd.print("88888888");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("88888888");
+  lcd.setCursor(2,1);
+  lcd.print("7777777");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("7777777");
+  lcd.setCursor(2,1);
+  lcd.print("666666");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("666666");
+  lcd.setCursor(2,1);
+  lcd.print("55555");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("55555");
+  lcd.setCursor(2,1);
+  lcd.print("4444");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("4444");
+  lcd.setCursor(2,1);
+  lcd.print("333");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("333");
+  lcd.setCursor(2,1);
+  lcd.print("22");
+  delay(1000);
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("22");
+  lcd.setCursor(2,1);
+  lcd.print("1");
+  delay(1000);
+}
